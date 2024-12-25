@@ -7,46 +7,97 @@
 
     <!-- Favicon Links -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="favicon.png">
-
-    <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-
-    <!-- Android Chrome Icons -->
     <link rel="icon" type="image/png" sizes="192x192" href="icons/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="icons/android-chrome-512x512.png">
-
-    <!-- Manifest for Android -->
     <link rel="manifest" href="manifest.json">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
             text-align: center;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
+
+        h1 {
+            font-size: 1.8em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
         .link {
             display: block;
-            margin: 10px auto;
-            padding: 10px 20px;
+            margin: 15px auto;
+            padding: 15px;
             background-color: #4CAF50;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            width: 200px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: background 0.3s ease;
         }
+
         .link:hover {
             background-color: #45a049;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Company Access App</h1>
-    <a class="link" href="https://forms.gle/fqkdmSAGg9TMHp6i6" target="_blank">Product Suggestions</a>
-    <a class="link" href="https://forms.gle/ZEnHSLuTzZr4Fbq67" target="_blank">Ideas for the Business</a>
-    <a class="link" href="https://docs.google.com/spreadsheets/d/1nPWh_lxMUXPBFoTO-LA19qfslXEUhf_t-plDzTepZ_g/edit?gid=0#gid=0" target="_blank">Company Excel</a>
-    <a class="link" href="https://blbapp.onrender.com/" target="_blank">Box Builder Tool</a>
-    <a class="link" href="https://www.youtube.com/watch?v=LwBeBoqxh8g&ab_channel=TheRoller" target="_blank">Biggest Little Box Website</a>
+    <header>
+        Company Access App
+    </header>
+
+    <div class="container">
+        <h1>Quick Access Links</h1>
+        <a class="link" href="https://forms.gle/fqkdmSAGg9TMHp6i6" target="_blank">Product Suggestions</a>
+        <a class="link" href="https://forms.gle/ZEnHSLuTzZr4Fbq67" target="_blank">Ideas for the Business</a>
+        <a class="link" href="https://docs.google.com/spreadsheets/d/1nPWh_lxMUXPBFoTO-LA19qfslXEUhf_t-plDzTepZ_g/edit?gid=0#gid=0" target="_blank">Company Excel</a>
+        <a class="link" href="https://blbapp.onrender.com/" target="_blank">Box Builder Tool</a>
+        <a class="link" href="https://www.youtube.com/watch?v=LwBeBoqxh8g&ab_channel=TheRoller" target="_blank">Biggest Little Box Website</a>
+    </div>
+
+    <footer>
+        &copy; 2024 Company Access App | <a href="#">Privacy Policy</a>
+    </footer>
 </body>
 </html>
